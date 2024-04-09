@@ -1,4 +1,5 @@
 install.packages('faraway')
+install.packages("caTools") #useful package for logistic regression 
 library(faraway)
 data(wcgs, package="faraway")
 #install necessary packages
